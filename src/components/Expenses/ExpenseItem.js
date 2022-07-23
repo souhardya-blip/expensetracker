@@ -1,7 +1,7 @@
 import './ExpenseItem.css';
 import Card from '../UI/Card';
 import ExpenseDate from './ExpenseDate.js'
-import React, { useState } from 'react';  //useState is a hook from the react library
+import React from 'react';  //useState is a hook from the react library
 function ExpenseItem(props){  
     /*
     // const [title,setTitle]= useState(props.title);
